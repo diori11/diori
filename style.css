@@ -1,9 +1,14 @@
-<style>
 h1{
-  text-align: center:
+  text-align: center;
+  background-img: linear-gradient (blue, red)
 }
 
   h2{
-  text-align: center:
+  text-align: center;
 }
-</style>
+
+body{
+  background-color: #abdbe3;
+}
+
+
