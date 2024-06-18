@@ -14,6 +14,10 @@
            width: -400px;
            height: -300px;
         }
+
+        body{
+            background-color: lightblue;
+        }
         </style>
   <h1>Buy your music here</h1>
   <h2>in r_production</h2>
