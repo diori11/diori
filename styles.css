@@ -1,27 +1,91 @@
-h1{
-  text-align: center;
-  background-img: linear-gradient (blue, red)
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-  h2{
-  text-align: center;
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
-body{
-  background-color: #abdbe3;
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.insta{
+header nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+main .featured {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main .featured h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+main .album {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main .album img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+main .album h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+main .album p {
+    color: #777;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
     position: fixed;
-    top: 400 px;
-    right: 45 px;
+    width: 100%;
+    bottom: 0;
 }
 
-.facebook{
-        position: fixed;
-    top: 350 px;
-    right: 45 px;
-
-}
 
 
