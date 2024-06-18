@@ -11,4 +11,17 @@ body{
   background-color: #abdbe3;
 }
 
+.insta{
+    position: fixed;
+    top: 400 px;
+    right: 45 px;
+}
+
+.facebook{
+        position: fixed;
+    top: 350 px;
+    right: 45 px;
+
+}
+
 
